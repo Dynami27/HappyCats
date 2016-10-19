@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC9C20F1DB820B200801715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9C20E1DB820B200801715 /* main.m */; };
+		AFC9C2121DB820B200801715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9C2111DB820B200801715 /* AppDelegate.m */; };
+		AFC9C2151DB820B200801715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9C2141DB820B200801715 /* ViewController.m */; };
+		AFC9C2181DB820B200801715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC9C2161DB820B200801715 /* Main.storyboard */; };
+		AFC9C21A1DB820B200801715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC9C2191DB820B200801715 /* Assets.xcassets */; };
+		AFC9C21D1DB820B200801715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC9C21B1DB820B200801715 /* LaunchScreen.storyboard */; };
+		AFC9C2281DB820B200801715 /* HappyCatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9C2271DB820B200801715 /* HappyCatsTests.m */; };
+		AFC9C2331DB820B200801715 /* HappyCatsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9C2321DB820B200801715 /* HappyCatsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC9C2241DB820B200801715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC9C2021DB820B200801715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC9C2091DB820B200801715;
+			remoteInfo = HappyCats;
+		};
+		AFC9C22F1DB820B200801715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC9C2021DB820B200801715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC9C2091DB820B200801715;
+			remoteInfo = HappyCats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC9C20A1DB820B200801715 /* HappyCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC9C20E1DB820B200801715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFC9C2101DB820B200801715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFC9C2111DB820B200801715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFC9C2131DB820B200801715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFC9C2141DB820B200801715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFC9C2171DB820B200801715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC9C2191DB820B200801715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC9C21C1DB820B200801715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC9C21E1DB820B200801715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC9C2231DB820B200801715 /* HappyCatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyCatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC9C2271DB820B200801715 /* HappyCatsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyCatsTests.m; sourceTree = "<group>"; };
+		AFC9C2291DB820B200801715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC9C22E1DB820B200801715 /* HappyCatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyCatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC9C2321DB820B200801715 /* HappyCatsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyCatsUITests.m; sourceTree = "<group>"; };
+		AFC9C2341DB820B200801715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC9C2071DB820B200801715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9C2201DB820B200801715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9C22B1DB820B200801715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC9C2011DB820B200801715 = {
+			isa = PBXGroup;
+			children = (
+				AFC9C20C1DB820B200801715 /* HappyCats */,
+				AFC9C2261DB820B200801715 /* HappyCatsTests */,
+				AFC9C2311DB820B200801715 /* HappyCatsUITests */,
+				AFC9C20B1DB820B200801715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC9C20B1DB820B200801715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9C20A1DB820B200801715 /* HappyCats.app */,
+				AFC9C2231DB820B200801715 /* HappyCatsTests.xctest */,
+				AFC9C22E1DB820B200801715 /* HappyCatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC9C20C1DB820B200801715 /* HappyCats */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9C2101DB820B200801715 /* AppDelegate.h */,
+				AFC9C2111DB820B200801715 /* AppDelegate.m */,
+				AFC9C2131DB820B200801715 /* ViewController.h */,
+				AFC9C2141DB820B200801715 /* ViewController.m */,
+				AFC9C2161DB820B200801715 /* Main.storyboard */,
+				AFC9C2191DB820B200801715 /* Assets.xcassets */,
+				AFC9C21B1DB820B200801715 /* LaunchScreen.storyboard */,
+				AFC9C21E1DB820B200801715 /* Info.plist */,
+				AFC9C20D1DB820B200801715 /* Supporting Files */,
+			);
+			path = HappyCats;
+			sourceTree = "<group>";
+		};
+		AFC9C20D1DB820B200801715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9C20E1DB820B200801715 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFC9C2261DB820B200801715 /* HappyCatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9C2271DB820B200801715 /* HappyCatsTests.m */,
+				AFC9C2291DB820B200801715 /* Info.plist */,
+			);
+			path = HappyCatsTests;
+			sourceTree = "<group>";
+		};
+		AFC9C2311DB820B200801715 /* HappyCatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9C2321DB820B200801715 /* HappyCatsUITests.m */,
+				AFC9C2341DB820B200801715 /* Info.plist */,
+			);
+			path = HappyCatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC9C2091DB820B200801715 /* HappyCats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC9C2371DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCats" */;
+			buildPhases = (
+				AFC9C2061DB820B200801715 /* Sources */,
+				AFC9C2071DB820B200801715 /* Frameworks */,
+				AFC9C2081DB820B200801715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyCats;
+			productName = HappyCats;
+			productReference = AFC9C20A1DB820B200801715 /* HappyCats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC9C2221DB820B200801715 /* HappyCatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC9C23A1DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCatsTests" */;
+			buildPhases = (
+				AFC9C21F1DB820B200801715 /* Sources */,
+				AFC9C2201DB820B200801715 /* Frameworks */,
+				AFC9C2211DB820B200801715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC9C2251DB820B200801715 /* PBXTargetDependency */,
+			);
+			name = HappyCatsTests;
+			productName = HappyCatsTests;
+			productReference = AFC9C2231DB820B200801715 /* HappyCatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC9C22D1DB820B200801715 /* HappyCatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC9C23D1DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCatsUITests" */;
+			buildPhases = (
+				AFC9C22A1DB820B200801715 /* Sources */,
+				AFC9C22B1DB820B200801715 /* Frameworks */,
+				AFC9C22C1DB820B200801715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC9C2301DB820B200801715 /* PBXTargetDependency */,
+			);
+			name = HappyCatsUITests;
+			productName = HappyCatsUITests;
+			productReference = AFC9C22E1DB820B200801715 /* HappyCatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC9C2021DB820B200801715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Khalid Mohamed";
+				TargetAttributes = {
+					AFC9C2091DB820B200801715 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AFC9C2221DB820B200801715 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFC9C2091DB820B200801715;
+					};
+					AFC9C22D1DB820B200801715 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFC9C2091DB820B200801715;
+					};
+				};
+			};
+			buildConfigurationList = AFC9C2051DB820B200801715 /* Build configuration list for PBXProject "HappyCats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC9C2011DB820B200801715;
+			productRefGroup = AFC9C20B1DB820B200801715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC9C2091DB820B200801715 /* HappyCats */,
+				AFC9C2221DB820B200801715 /* HappyCatsTests */,
+				AFC9C22D1DB820B200801715 /* HappyCatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC9C2081DB820B200801715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC9C21D1DB820B200801715 /* LaunchScreen.storyboard in Resources */,
+				AFC9C21A1DB820B200801715 /* Assets.xcassets in Resources */,
+				AFC9C2181DB820B200801715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9C2211DB820B200801715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9C22C1DB820B200801715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC9C2061DB820B200801715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC9C2151DB820B200801715 /* ViewController.m in Sources */,
+				AFC9C2121DB820B200801715 /* AppDelegate.m in Sources */,
+				AFC9C20F1DB820B200801715 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9C21F1DB820B200801715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC9C2281DB820B200801715 /* HappyCatsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9C22A1DB820B200801715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC9C2331DB820B200801715 /* HappyCatsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC9C2251DB820B200801715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC9C2091DB820B200801715 /* HappyCats */;
+			targetProxy = AFC9C2241DB820B200801715 /* PBXContainerItemProxy */;
+		};
+		AFC9C2301DB820B200801715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC9C2091DB820B200801715 /* HappyCats */;
+			targetProxy = AFC9C22F1DB820B200801715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC9C2161DB820B200801715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC9C2171DB820B200801715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC9C21B1DB820B200801715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC9C21C1DB820B200801715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC9C2351DB820B200801715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC9C2361DB820B200801715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC9C2381DB820B200801715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyCats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.strings.HappyCats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC9C2391DB820B200801715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyCats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.strings.HappyCats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFC9C23B1DB820B200801715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyCatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.strings.HappyCatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyCats.app/HappyCats";
+			};
+			name = Debug;
+		};
+		AFC9C23C1DB820B200801715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyCatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.strings.HappyCatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyCats.app/HappyCats";
+			};
+			name = Release;
+		};
+		AFC9C23E1DB820B200801715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappyCatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.strings.HappyCatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappyCats;
+			};
+			name = Debug;
+		};
+		AFC9C23F1DB820B200801715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappyCatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.strings.HappyCatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappyCats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC9C2051DB820B200801715 /* Build configuration list for PBXProject "HappyCats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC9C2351DB820B200801715 /* Debug */,
+				AFC9C2361DB820B200801715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC9C2371DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC9C2381DB820B200801715 /* Debug */,
+				AFC9C2391DB820B200801715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFC9C23A1DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC9C23B1DB820B200801715 /* Debug */,
+				AFC9C23C1DB820B200801715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFC9C23D1DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC9C23E1DB820B200801715 /* Debug */,
+				AFC9C23F1DB820B200801715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC9C2021DB820B200801715 /* Project object */;
+}
