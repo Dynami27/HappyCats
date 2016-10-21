@@ -507,6 +507,7 @@
 				AFC9C2391DB820B200801715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFC9C23A1DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCatsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				AFC9C23C1DB820B200801715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFC9C23D1DB820B200801715 /* Build configuration list for PBXNativeTarget "HappyCatsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				AFC9C23F1DB820B200801715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
